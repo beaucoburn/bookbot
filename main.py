@@ -7,3 +7,5 @@ def get_book_text(file_path):
 def main():
     book_text = get_book_text(file_path)
     print(book_text)
+
+main()
