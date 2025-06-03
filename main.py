@@ -1,4 +1,4 @@
-file_path = input("books/frankenstein.txt")
+file_path = input("What is the path to the book you want to read?: ")
 def get_book_text(file_path):
     with open(file_path) as f:
         book_text = f.read()
