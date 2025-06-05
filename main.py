@@ -16,7 +16,7 @@ def main(file_path):
     book_text = get_book_text(file_path)
 
     print("\n============ BOOKBOT ============")
-    print("Analyzing book found at {file_path}...")
+    print(f"Analyzing book found at {file_path}...")
     print("\n----------- Word Count -----------")
     print(f"Found {get_num_words(book_text)} total words")
     char_counts = count_char(book_text)
